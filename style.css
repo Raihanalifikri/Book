@@ -91,6 +91,11 @@ small a:hover {
   background-color:#FBF9F1;
 }
 
+#footer i{
+  font-size: 34px;
+  margin: 0 10px;
+}
+
 
 /* Button home */
 .cssbuttons-io-button {
