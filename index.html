@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="image/book28.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -120,10 +121,10 @@
     <!-- Author -->
     <div class="container-fluid gy-0 " id="author">
         <div class="row align-items-center p-5">
-            <div class="col-lg-6">
+            <div class="col-lg-6"  data-aos="fade-right" data-aos-duration="1500">
                 <img src="image/tere liye.png" alt="" style="width: 500px;">
             </div>
-            <div class="col-lg-6 align-items-center ">
+            <div class="col-lg-6 align-items-center " data-aos="fade-left" data-aos-duration="1500">
                 <h1 class="mb-3">ABOUT THE AUTHOR</h1>
                 <p class="mb-4">Darwis yang lebih dikenal dengan nama pena Tere Liye adalah penulis dan akuntan
                     berkebangsaan Indonesia. Memulai debut kepenulisan pada tahun 2005 melalui novel Hafalan Sholat
@@ -424,6 +425,10 @@
     <!-- END SVG -->
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>

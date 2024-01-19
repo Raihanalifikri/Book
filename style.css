@@ -97,6 +97,14 @@ small a:hover {
 }
 
 
+.card-img-top{
+  transition: all .3s ease;
+}
+
+.card-img-top:hover {
+  transform: translateY(-20px);
+}
+
 /* Button home */
 .cssbuttons-io-button {
     background: #312b38;
